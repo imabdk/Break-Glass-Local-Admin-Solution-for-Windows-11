@@ -6,7 +6,6 @@
 - 🔍 Monitoring through Defender for Endpoint  
 - 🔄 Complete lifecycle (create, monitor, remove)
 - 🌍 Language-independent (SID-based)
-- 🔐 Auditable and reversible
 
 ## When to Use
 
@@ -109,6 +108,7 @@ Create custom detection rules with appropriate severity and alert frequency.
 📝 [Detailed Blog Post](YOUR_BLOG_URL)  
 
 **⚠️ Last resort solution for true emergencies. Use responsibly.**
+
 
 
 
