@@ -12,7 +12,6 @@
 - LAPS password won't retrieve
 - Domain connectivity breaks
 - User accounts are locked/corrupted
-- Conditional Access blocks emergency access
 - Need local admin access **now**
 
 > **Requirements:** Device online with healthy Intune management
@@ -108,6 +107,7 @@ Create custom detection rules with appropriate severity and alert frequency.
 📝 https://www.imab.dk/building-a-break-glass-local-admin-solution-for-windows-11-using-intune-and-defender-for-endpoint/  
 
 **⚠️ Last resort solution for true emergencies. Use responsibly.**
+
 
 
 
