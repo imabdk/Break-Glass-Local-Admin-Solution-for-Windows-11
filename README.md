@@ -105,9 +105,10 @@ Create custom detection rules with appropriate severity and alert frequency.
 
 ## Links
 
-📝 [Detailed Blog Post](YOUR_BLOG_URL)  
+📝 https://www.imab.dk/building-a-break-glass-local-admin-solution-for-windows-11-using-intune-and-defender-for-endpoint/  
 
 **⚠️ Last resort solution for true emergencies. Use responsibly.**
+
 
 
 
