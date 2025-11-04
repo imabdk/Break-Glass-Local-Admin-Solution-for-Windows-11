@@ -1,7 +1,5 @@
 # Break-Glass Local Admin Solution for Windows 11
 
-Emergency local administrator account deployable via Intune when LAPS, Azure AD auth, or domain trust fails.
-
 ## Key Features
 
 - 🚀 Remote deployment via Intune Remediations
@@ -35,13 +33,13 @@ Emergency local administrator account deployable via Intune when LAPS, Azure AD 
    - Set a strong password
    
 2. **Create Intune Remediation**
-   - **Devices** > **Scripts and remediations** > **Proactive remediations**
+   - **Devices** > **Scripts and remediations** > **Remediations**
    - Upload detection and remediation scripts
    - Run as **System** in **64-bit PowerShell**
 
 3. **Deploy strategically**
    - Keep unassigned until emergency (recommended)
-   - OR deploy to test group only
+   - Run on demand
 
 4. **Set up Defender monitoring** (queries included)
 
@@ -111,5 +109,6 @@ Create custom detection rules with appropriate severity and alert frequency.
 📝 [Detailed Blog Post](YOUR_BLOG_URL)  
 
 **⚠️ Last resort solution for true emergencies. Use responsibly.**
+
 
 
