@@ -3,7 +3,7 @@
 
 function New-EmergencyAdmin {
     $Username = "Batman"
-    $Password = "Johnnybrugerikkegummist0vler!"  # Replace with your secure known password
+    $Password = "randompasswordgenerator"  # Replace with your secure known password
     $SecurePassword = ConvertTo-SecureString $Password -AsPlainText -Force
     
     # Check if user exists
@@ -38,3 +38,4 @@ try {
     Write-Error "[ERROR] Failed to configure emergency admin account: $_"
     exit 1
 }
+
