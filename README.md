@@ -18,7 +18,7 @@ Emergency local administrator account deployable via Intune when LAPS, Azure AD 
 - Conditional Access blocks emergency access
 - Need local admin access **now**
 
-> **Requirements:** Device online with healthy Intune agent
+> **Requirements:** Device online with healthy Intune management
 
 ## What's Included
 
@@ -111,4 +111,5 @@ Create custom detection rules with appropriate severity and alert frequency.
 📝 [Detailed Blog Post](YOUR_BLOG_URL)  
 
 **⚠️ Last resort solution for true emergencies. Use responsibly.**
+
 
