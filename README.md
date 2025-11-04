@@ -50,15 +50,13 @@ Emergency local administrator account deployable via Intune when LAPS, Azure AD 
 **Account Creation:**
 ```kusto
 DeviceEvents
-| where ActionType == "UserAccountCreated"
-| where AccountName =~ "Batman"
+| where ActionType == "UserAccountCreated" and AccountName =~ "Batman"
 ```
 
 **Account Login:**
 ```kusto
 DeviceLogonEvents
-| where AccountName =~ "Batman" and ActionType == "LogonSuccess"
-| project Timestamp, DeviceName, AccountName, LogonType
+| where ActionType == "LogonSuccess" and AccountName =~ "Batman"
 ```
 
 **Added to Local Administrators:**
@@ -113,3 +111,4 @@ Create custom detection rules with appropriate severity and alert frequency.
 📝 [Detailed Blog Post](YOUR_BLOG_URL)  
 
 **⚠️ Last resort solution for true emergencies. Use responsibly.**
+
